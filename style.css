@@ -1,7 +1,8 @@
 body {
 	
 /*	background-image: */
-	font-size: 67.5%; /* base font size is 14px */
+
+	font-size: 90%; /* base font size is 14px */
 	font-family: 'Oswald', sans-serif;
 	line-height: 1.5;
 	text-align: left;
@@ -35,6 +36,7 @@ a:hover, a:active {
 	  
     width: 100%;
     height: auto;
+  
     display: flex;
     justify-content: center;
 }
@@ -52,21 +54,40 @@ a:hover, a:active {
 .navCenter {
 	width: 100%;
 	height: auto;
-    vertical-align: middle;
+	vertical-align: middle;
+
 }
 
 .navMenu a:link, .navMenu a:visited {
 	display: block;
 	color: #fff;
 	display: inline-block;
-	padding: 10px 15px;
+	padding: 30px 15px;
 }
 
-.navMenu a:hover, .navMenu a:active,
-.navMenu .active, .navMenu .active a:link, .navMenu .active a:visited  {
+.navMenu a:hover, .navMenu a:active, .navMenu .active, .navMenu .active a:link, .navMenu .active a:visited  {
 	text-shadow: none;
 	color: #780404;
+	font-weight: bold; 
 }
+
+nav.shrink {
+	background-color: #2a2a30;	
+	height: 70px;
+	padding-top: 0;
+}
+
+nav.shrink a:link, nav.shrink a:visited  {
+
+	font-size: 80%;
+	padding-top: 10px;
+}
+
+nav.shrink img {
+	width: 90%;
+	padding-left: 15px;
+	
+ }
 
 .mainContent {
 	width: 100%;
