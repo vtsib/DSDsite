@@ -1,0 +1,78 @@
+body {
+	
+/*	background-image: */
+	font-size: 67.5%; /* base font size is 14px */
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;	
+}
+
+a:link, a:visited {
+	
+}
+
+a:hover, a:active {
+	
+}
+
+.body {
+	margin: 0 auto;
+	width: 100%;	
+	clear: both;
+}
+
+.mainHeader {
+
+	margin: 0 auto;
+	
+}
+.navMenu {
+	position: fixed;
+	  
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.navMenu ul {
+
+	list-style: none;
+	margin: 0 auto;
+}
+.navMenu ul li {
+	font-weight: bold;
+    display: inline;
+    
+}
+
+.navCenter {
+	width: 100%;
+	height: auto;
+    vertical-align: middle;
+}
+
+.navMenu a:link, .navMenu a:visited {
+	display: block;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 15px;
+}
+
+.navMenu a:hover, .navMenu a:active,
+.navMenu .active, .navMenu .active a:link, .navMenu .active a:visited  {
+	text-shadow: none;
+	color: #780404;
+}
+
+.mainContent {
+	width: 100%;
+	
+}
+
+.mainBanner img {
+	width: 100%;
+}
