@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+
+.mynav {
+	/*background-image: url("../images/main_banner_01.jpg");
+	height: 756px;
+*/}
+
+
+.navbar {
+	
+	background-color: rgba(0,0,0,0.3) !important;
+		
+}
+
+
+.navbar .navbar-nav {
+/*	margin: 0 320px; */
+		margin-top: 20px;
+
+}
+
+.navbar .nav-item {
+	padding: 0 20px !important;
+
+}
+
+.navbar .nav-item a {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color: #fff !important;
+	
+}
+
+.navbar .nav-item a:hover {
+	
+	color: #780404 !important;
+}
+
+
+nav.shrink {
+	background-color: #2a2a30 !important;	
+	height: 70px;
+	
+}
+
+nav.shrink a:link, nav.shrink a:visited  {
+
+	font-size: 80%;
+	padding-top: 10px;
+}
+
+.navbar .shrink {
+	margin-top: 0px;
+}
+.navbar-brand img {
+	width: 250px;
+	margin: 20px 20px 0px 20px;
+}
+.navbar-brand img.tiny {
+	width: 60px;
+	margin: 0px 20px 0px 20px;
+}
