@@ -1,11 +1,72 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
+body {
+	max-width: 1366px;
+}
 
+/* Style my main Content */
+.mainContent {
+	height: 500px; /* for now */
+	background-color: #2a2a30;
+}
+/* Style my FOOTER */
+
+.mainFooter {
+	background-image: url("../images/bg_footer.jpg");
+	height: 263px;
+}
+
+.topFooter {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	color: #515257; 
+	text-align: center;
+}
+
+.topFooter ul {
+	list-style-type: none;
+	margin-bottom: 70px;
+}
+
+.midFooter {
+	text-align: center;
+}
+
+.midFooter ul {
+	list-style-type: none;
+	
+}
+
+.midFooter li {
+	display: inline;
+	margin: 0 10px;
+}
+
+.botFooter {
+	text-align: center;
+	margin-top: 62px;
+	color: #515257; 
+}
+
+.botFooter p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 80%;
+	font-weight: normal;
+}
+
+/* Style my navigation bar */
 
 .mynav {
 	/*background-image: url("../images/main_banner_01.jpg");
-	height: 756px;
-*/}
+	height: 756px; */
+	max-width: 1366px;
+}
+
+
+.container{
+    
+}
 
 
 .navbar {
