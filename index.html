@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body >
 
     <div class="mynav">
 	   
@@ -29,13 +29,13 @@
 				        <a class="nav-link" href="#">NEWS</a>
 				      </li>
 				      <li class="nav-item ">
-				        <a class="nav-link disabled" href="#">BIOGRAPHY</a>
+				        <a class="nav-link " href="#">BIOGRAPHY</a>
 				      </li>
 				    </ul>
 				  </div>
 				  <a class="navbar-brand d-flex mx-auto" href="#"><img id="logo_img" class="img-fluid" src="images/logo_big_03.png"></a>
 				  <div class="navbar-collapse collapse dual-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
+					<ul class="navbar-nav ">
 				      <li class="nav-item ">
 				        <a class="nav-link" href="#">DISCOGRAPHY <span class="sr-only">(current)</span></a>
 				      </li>
@@ -54,20 +54,35 @@
     </div>
 	
 	
-	<div class="banner"> 
-		<img class="img-fluid" src="images/main_banner_01.jpg" alt="banner"> 
-	</div>
+		<div class="banner"> 
+			<img class="img-fluid" src="images/main_banner_01.jpg" alt="banner"> 
+			<div class="player">
+				<audio id="audio-player" src="media/DSD_teaser.mp3" type="audio/mp3" controls="controls" autoplay>
+					
+				</audio>
+			</div>
+		</div>
 	
-	<div class="mainContent">Main content Div</div>
+	<div class="mainContent ">
+		<header class="mainContentHeader">
+			<h1>LATEST NEWS</h1>
+		</header>
+		<div class="sliderContent ">
+				<!--		<img src="images/bg_slider_news.jpg" alt="SLIDER">   -->
+			
+		</div>
+	</div>
+  
+	
+
     
     
     
     <footer class="mainFooter">
 	    <div class="topFooter">
-		    <ul>
-			    <li><img src="images/dsd_footer_logo.png" alt="back to top"></li>
-			    <li>BACK TO TOP</li>
-		    </ul>
+		    <div class="logoFooter"><a href="" class="back-to-top" onclick="topFunction()"><img src="images/dsd_footer_logo.png" alt="back to top"></a></div>
+			<div class="backTop"> BACK TO TOP</div>
+		    
 	    </div>
 	    <div class="midFooter">
 		    <ul>
